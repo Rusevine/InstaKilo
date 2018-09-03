@@ -32,7 +32,8 @@
     CGSize size = CGSizeMake(self.collectionView.bounds.size.width/2, self.collectionView.bounds.size.width/2);
     layout.itemSize = size;
     
-}- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+}
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     return [self.manager numberOfItemsInSection:section];
 }
 
